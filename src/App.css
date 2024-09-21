@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.btn {
+    margin-top: 10px;           
+    padding: 15px 25px;         
+    background-color: #161D6F;  
+    color: white;                
+    border: none;                
+    border-radius: 8px;         
+    cursor: pointer;  
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;           
+}
+
+.btn:hover {
+    background-color: brown;  
+}
+
+h1{
+font-family: "Young Serif", serif;
+font-weight: 700;
+font-size: 2.5em;
+line-height: 1.5;
+color: #161D6F;
+
+}
+
+span{
+  color: brown;
+}
+
+h2 {
+    font-family: "Great Vibes", cursive;  
+      font-size: 5em;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18.4px;
+    line-height: 1.9;
+}
+
+h3{
+    font-size: 2em;
+}
+li {
+  font-family: 'Poppins', sans-serif;
+}

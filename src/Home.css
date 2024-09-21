@@ -1,0 +1,164 @@
+
+ .section-1 {
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;         
+    padding: 20px;              
+}
+
+.section-content {
+    max-width: 60%;
+    padding-left:60px; 
+    padding-right: 50px;            
+}
+
+.bio {
+    width: 600px;               
+    height: auto;               
+    margin: 25px 60px;
+    border-radius: 12px;            
+}
+
+.other-title {
+    margin-top: 50px; 
+    text-align: center; 
+    margin-bottom: 20px;       
+}
+
+
+.trusted-by {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 30px; 
+  padding: 20px; 
+}
+
+.trusted-by img {
+  max-width: 100px; 
+  height: auto; 
+}
+
+.services{
+   text-align: center; 
+   color: brown;
+   
+}
+
+
+.firsth2{
+    margin-bottom: 15px;
+    margin-top: 65px;
+    font-family: "Tangerine", cursive;
+    font-size: 5em;
+}
+
+.more{
+
+    text-align: center;
+
+}
+.more >p{
+    line-height: 1.1;
+}
+.virtual-assistant-services {
+  text-align: center;
+  padding: 2rem 80px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.service-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover {
+  transform: scale(1.05); 
+}
+
+.service-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background-color: #161D6F;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+.pricing-packages {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0 60px;
+
+}
+
+.btn {
+    margin: 10px auto;
+}
+
+.package {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.package h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.rate {
+  font-size: 1.8rem;
+  color: brown;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.package ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.package ul li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.package ul li::before {
+  content: "✔";
+  color: #007bff;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
