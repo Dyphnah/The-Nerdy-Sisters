@@ -3,7 +3,8 @@
     display: flex;                
     justify-content: space-between; 
     align-items: center;         
-    padding: 20px;              
+    padding: 20px; 
+    margin-top: 30px;             
 }
 
 .section-content {
@@ -24,7 +25,6 @@
     text-align: center; 
     margin-bottom: 20px;       
 }
-
 
 .trusted-by {
   display: flex; 
@@ -90,7 +90,7 @@
 
 .cta-button {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 3rem;
   padding: 0.85rem 1rem;
   background-color: #161D6F;
   color: white;
@@ -107,6 +107,7 @@
 .pricing-packages {
   text-align: center;
   padding: 40px 20px;
+  margin-top: 30px;  
 }
 
 .grid-container {

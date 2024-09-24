@@ -44,7 +44,7 @@ export default function Home() {
           <div className="grid-container">
             <div className="service-item">
               <img src={design} alt="Administrative Support" />
-              <h3>Administrative Support</h3>
+              <h3>Admin Support</h3>
               <p>We’re here to make your life easier! With our email management and calendar scheduling, you’ll never miss an important message or appointment again. We’ll keep your files organized so you can quickly find what you need. Plus, we handle travel arrangements and follow up with clients, saving you time and reducing stress. Our project management support and task prioritization mean you can focus on growing your business while we take care of the details that keep everything running smoothly.</p>
               <p className="price">Starting at $21 per hour</p>
               <a href="consult-page-url" className="cta-button">Book a Consultation</a>
@@ -104,7 +104,7 @@ export default function Home() {
 
             <div className="package">
               <h3>Standard Plan</h3>
-              <p className="rate">$700/month</p>
+              <p className="rate">$750/month</p>
               <ul>
                 <li>Up to 40 hours of support per month</li>
                 <li>Switch Plans or Cancel Anytime</li>
@@ -116,7 +116,7 @@ export default function Home() {
 
             <div className="package">
               <h3>Premium Plan</h3>
-              <p className="rate">$1699/month</p>
+              <p className="rate">$1799/month</p>
               <ul>
                 <li>Up to 100 hours of support per month</li>
                 <li>Switch Plans or Cancel Anytime</li>

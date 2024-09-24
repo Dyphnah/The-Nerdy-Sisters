@@ -1,0 +1,105 @@
+.work-with-us-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-section h1 {
+  font-size: 46px;
+  color: #080D35;
+}
+
+.header-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.service {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service h2 {
+  font-size: 32px;
+  color: #080D35;
+}
+
+.service p {
+  color: #666;
+}
+
+.service button {
+  padding: 10px 20px;
+  background-color: #080D35;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.service button:hover {
+  background-color: brown;
+}
+
+.testimonials-section {
+  margin: 40px 0;
+}
+
+.testimonial {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.contact-section {
+  margin: 40px 0;
+}
+.h3-1{
+    text-align: center;
+}
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section input,
+.contact-section textarea {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+.contact-section button {
+  padding: 15px;
+  background-color: #080D35;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: brown;
+}

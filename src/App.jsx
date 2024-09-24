@@ -7,7 +7,7 @@ import Home from './Home.jsx';
 import About from './About.jsx';
 import WorkWithUs from './WorkWithUs.jsx';
 import Blog from './Blog.jsx';
-import Consult from './Consult.jsx';
+import Consulting from './Consulting.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/work-with-us" element={<WorkWithUs />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/consult" element={<Consult />} />
+        <Route path="/consult" element={<Consulting />} />
       </Routes>
       <Footer />
     </>

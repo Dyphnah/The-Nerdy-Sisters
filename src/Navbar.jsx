@@ -19,10 +19,13 @@ export default function Navbar() {
             <NavLink to="work-with-us">Work With Us</NavLink>
           </li>
           <li>
+            <NavLink to="consult">Consulting</NavLink>
+          </li>
+          <li>
             <NavLink to="blog">Blog</NavLink>
           </li>
           <li className="last">
-            <NavLink to="consult">Schedule a Call</NavLink>
+            <NavLink to="strategy">Free Discovery Call</NavLink>
           </li>        
         </ul>
       </nav>

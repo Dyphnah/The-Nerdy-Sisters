@@ -42,11 +42,16 @@
 
 .last a{
     margin-right: 40px;
-    color: Brown;
+    color: #007bff;
 }
 
 .nav-links a:hover {
-  color: #2EA002; 
+  color: brown; 
   text-decoration: underline;
 }
 
+.nav-links a:active{
+  color: brown;
+}
+
+/* active class not working at this point. not sure why. */
