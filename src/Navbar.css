@@ -42,7 +42,7 @@
 
 .last a{
     margin-right: 40px;
-    color: #007bff;
+    color: brown;
 }
 
 .nav-links a:hover {
@@ -55,3 +55,5 @@
 }
 
 /* active class not working at this point. not sure why. */
+
+/*  */
