@@ -1,8 +1,8 @@
+
 .work-with-us-container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
-  
 }
 
 .header-section {
@@ -22,17 +22,23 @@
 
 .services-section {
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .service {
-  flex: 1;
-  margin: 0 10px;
+  flex: 1 1 300px; /* Allow flexibility and set a minimum width */
+  margin: 10px; /* Adjust margin for better spacing */
   text-align: center;
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 8px;
+  transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+.service:hover {
+  transform: scale(1.02); /* Slightly scale on hover */
 }
 
 .service img {
@@ -65,6 +71,7 @@
 
 .testimonials-section {
   margin: 40px 0;
+  text-align: center; /* Center-align testimonials */
 }
 
 .testimonial {
@@ -75,9 +82,11 @@
 .contact-section {
   margin: 40px 0;
 }
-.h3-1{
-    text-align: center;
+
+.h3-1 {
+  text-align: center;
 }
+
 .contact-section form {
   display: flex;
   flex-direction: column;
@@ -96,10 +105,4 @@
   background-color: #080D35;
   color: white;
   border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-.contact-section button:hover {
-  background-color: brown;
 }

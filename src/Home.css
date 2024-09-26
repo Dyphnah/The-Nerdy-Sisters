@@ -1,5 +1,5 @@
 
- .section-1 {
+.section-1 {
     display: flex;                
     justify-content: space-between; 
     align-items: center;         
@@ -9,7 +9,7 @@
 
 .section-content {
     max-width: 60%;
-    padding-left:60px; 
+    padding-left: 60px; 
     padding-right: 50px;            
 }
 
@@ -27,95 +27,91 @@
 }
 
 .trusted-by {
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  gap: 30px; 
-  padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    padding: 20px; 
 }
 
 .trusted-by img {
-  max-width: 100px; 
-  height: auto; 
+    max-width: 100px; 
+    height: auto; 
 }
 
-.services{
-   text-align: center; 
-   color: brown;
-   
+.services {
+    text-align: center; 
+    color: brown;
 }
 
-
-.firsth2{
+.firsth2 {
     margin-bottom: 15px;
     margin-top: 65px;
     font-family: "Tangerine", cursive;
     font-size: 5em;
 }
 
-.more{
-
+.more {
     text-align: center;
-
 }
-.more >p{
+
+.more > p {
     line-height: 1.1;
 }
+
 .virtual-assistant-services {
-  text-align: center;
-  padding: 2rem 80px;
+    text-align: center;
+    padding: 2rem 80px;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .service-item {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .service-item:hover {
-  transform: scale(1.05); 
+    transform: scale(1.05); 
 }
 
 .service-item img {
-  max-width: 100%;
-  border-radius: 8px;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 .cta-button {
-  display: inline-block;
-  margin-top: 3rem;
-  padding: 0.85rem 1rem;
-  background-color: #161D6F;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 0.85rem 1rem;
+    background-color: #161D6F;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
-
 .pricing-packages {
-  text-align: center;
-  padding: 40px 20px;
-  margin-top: 30px;  
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 30px;  
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  padding: 0 60px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 60px;
 }
 
 .btn {
@@ -123,43 +119,96 @@
 }
 
 .package {
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
 }
 
 .package h3 {
-  font-size: 1.5rem;
-  color: #333;
+    font-size: 1.5rem;
+    color: #333;
 }
 
 .rate {
-  font-size: 1.8rem;
-  color: brown;
-  margin: 10px 0;
-  font-weight: bold;
+    font-size: 1.8rem;
+    color: brown;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 .package ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .package ul li {
-  font-size: 1rem;
-  padding: 5px 0;
+    font-size: 1rem;
+    padding: 5px 0;
 }
 
 .package ul li::before {
-  content: "✔";
-  color: #007bff;
-  margin-right: 8px;
+    content: "✔";
+    color: #007bff;
+    margin-right: 8px;
 }
 
+/* Media Queries for Smaller Devices */
 @media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
+    .section-1 {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px; 
+    }
+
+    .section-content {
+        max-width: 100%; 
+        padding-left: 20px; 
+        padding-right: 20px;            
+    }
+
+    .bio {
+        /* width: 100%; 
+        margin: 15px 0;  */
+         display: none;
+    }
+
+    .trusted-by {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .firsth2 {
+        font-size: 2.5em; 
+    }
+
+    .virtual-assistant-services {
+        padding: 1rem 20px; 
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; 
+        padding: 0; 
+    }
+
+    .service-item {
+        margin: 0 10px; 
+    }
+
+    .pricing-packages {
+        padding: 20px 10px; 
+    }
+
+    .package h3 {
+        font-size: 1.2rem; 
+    }
+
+    .rate {
+        font-size: 1.5rem; 
+    }
+
+    .package ul li {
+        font-size: 0.9rem; 
+    }
 }

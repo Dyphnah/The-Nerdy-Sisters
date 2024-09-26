@@ -3,11 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white; 
+  background-color: white;
   padding: 10px 60px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
-
 }
 
 .logo-container {
@@ -16,7 +15,7 @@
 }
 
 .logo {
-  height: 100px; 
+  height: 100px;
   cursor: pointer;
   width: 120px;
 }
@@ -24,7 +23,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 50px; 
+  gap: 50px;
 }
 
 .nav-links li {
@@ -40,20 +39,75 @@
   font-style: normal;
 }
 
-.last a{
-    margin-right: 40px;
-    color: brown;
-}
-
-.nav-links a:hover {
-  color: brown; 
-  text-decoration: underline;
-}
-
-.nav-links a:active{
+.last a {
+  margin-right: 40px;
   color: brown;
 }
 
-/* active class not working at this point. not sure why. */
+.nav-links a:hover {
+  color: brown;
+  text-decoration: underline;
+}
 
-/*  */
+.nav-links a:active {
+  color: brown;
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-icon .line {
+  width: 30px;
+  height: 3px;
+  background-color: #080D35;
+}
+
+.nav-links-mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 80px);
+  z-index: 10;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-links-mobile li {
+  margin: 10px 0;
+}
+
+.nav-links-mobile a {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links-mobile {
+    display: none;
+  }
+
+  .nav-links-mobile.open {
+    display: flex;
+  }
+}
+
+.active {
+  color: brown !important;
+  text-decoration: underline;
+}

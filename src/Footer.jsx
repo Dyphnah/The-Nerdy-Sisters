@@ -1,6 +1,7 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
-import './Footer.css'; 
+import './Footer.css';
 
 export default function Footer() {
   const handleNewsletterSubmit = (e) => {

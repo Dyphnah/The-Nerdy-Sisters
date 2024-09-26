@@ -1,10 +1,12 @@
-
 import "./About.css";
 import Deey from "./assets/Deey.jpg";
 import Stella from "./assets/stella.jpeg";
-
+// import { useMediaQuery } from 'react-responsive';
 
 export default function About() {
+  // const isTabletOrMobile = useMediaQuery({ query: '(max-width: 767px)' });
+  // const isDesktop = useMediaQuery({ query: '(min-width: 1024px)' });
+
   return (
     <div className="about-container">
       <h2>Welcome to The Nerdy Sisters!</h2>
@@ -18,32 +20,28 @@ export default function About() {
         <p>Join us on this journey as we work together to create a thriving community of entrepreneurs and innovators!</p>
       </div>
       <h2>Meet Our Able Team</h2>
+
       <div className="about-card">
         <img src={Deey} alt="Stella's Headshot" />
         <div>
-         <h3>Dyphnah Nyamongo</h3>
-        <h4>Owner & Founder</h4>
-                  
+          <h3>Dyphnah Nyamongo</h3>
+          <h4>Owner & Founder</h4>
           <p>
-           Dyphnah is a dynamic professional with a passion for technology, agriculture, travel, mental health, and self-improvement. Over the past six years, she has honed her expertise in virtual assistance, graphic design, and digital marketing. Dyphnah also worked as a Tours and Travel Consultant, crafting memorable experiences in East Africa. At Three Hearts Veterinary Centre, she manages operations and marketing, and as the founder of The Nerdy Sisters, she leads design and development. Dyphnah’s recent venture into software development has broadened her skill set, empowering her to offer creative, tech-driven solutions. Her multifaceted experience and attention to detail position her as a valuable asset across various industries.
-          </p>
-        </div>
-    </div>
-    <div className="about-card">
-        <img src={Stella} alt="Dyphnah's Headshot" />
-        <div>
-         <h3>Stella Nyamongo</h3>
-        <h4>Veterinarian & Transcriber</h4>
-                  
-          <p>
-            Stella is a highly skilled, compassionate, and dedicated veterinary surgeon who strives to provide the best possible care for her patients. With extensive practical experience, keen eye for detail, and a deep understanding of animal behavior, she is able to diagnose and treat a wide range of conditions. Stella is also running Three Hearts Agrovet, where she not only sells veterinary products but also offers expert advice to her customers, ensuring both animal health and client satisfaction.          
+            Dyphnah is a dynamic professional with a passion for technology, agriculture, travel, mental health, and self-improvement. Over the past six years, she has honed her expertise in virtual assistance, graphic design, and digital marketing. Dyphnah also worked as a Tours and Travel Consultant, crafting memorable experiences in East Africa. At Three Hearts Veterinary Centre, she manages operations and marketing, and as the founder of The Nerdy Sisters, she leads design and development. Dyphnah’s recent venture into software development has broadened her skill set, empowering her to offer creative, tech-driven solutions. Her multifaceted experience and attention to detail position her as a valuable asset across various industries.
           </p>
         </div>
       </div>
 
+      <div className="about-card">
+        <img src={Stella} alt="Dyphnah's Headshot" />
+        <div>
+          <h3>Stella Nyamongo</h3>
+          <h4>Veterinarian & Transcriber</h4>
+          <p>
+            Stella is a highly skilled, compassionate, and dedicated veterinary surgeon who strives to provide the best possible care for her patients. With extensive practical experience, keen eye for detail, and a deep understanding of animal behavior, she is able to diagnose and treat a wide range of conditions. Stella is also running Three Hearts Agrovet, where she not only sells veterinary products but also offers expert advice to her customers, ensuring both animal health and client satisfaction.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
-
-
-
