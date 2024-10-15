@@ -39,11 +39,6 @@
   font-style: normal;
 }
 
-.last a {
-  margin-right: 40px;
-  color: brown;
-}
-
 .nav-links a:hover {
   color: brown;
   text-decoration: underline;

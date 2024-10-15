@@ -8,6 +8,7 @@ import About from './About.jsx';
 import WorkWithUs from './WorkWithUs.jsx';
 import Blog from './Blog.jsx';
 import Consulting from './Consulting.jsx';
+import Portfolio from './Portfolio.jsx';
 import Footer from './Footer.jsx';
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/work-with-us" element={<WorkWithUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/consult" element={<Consulting />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <Footer />
     </>

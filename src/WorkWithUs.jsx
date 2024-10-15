@@ -1,7 +1,10 @@
 
-
 import React from "react";
 import './WorkWithUs.css'; 
+import Va from "./assets/pic-1.jpg"
+import Consult from "./assets/consulting.jpg"
+
+
 
 export default function WorkWithUs() {
   return (
@@ -13,7 +16,7 @@ export default function WorkWithUs() {
 
       <section className="services-section">
         <div className="service">
-          <img src="/path/to/consulting-image.jpg" alt="Consulting Services" />
+          <img src={Consult} alt="Consulting Services" />
           <h2>Consulting Services</h2>
           <p>
             Our expert consultants provide tailored strategies to help you streamline your operations, improve productivity, and achieve your business goals.
@@ -22,7 +25,7 @@ export default function WorkWithUs() {
         </div>
         
         <div className="service">
-          <img src="/path/to/va-image.jpg" alt="Virtual Assistant Services" />
+          <img src={Va} alt="Virtual Assistant Services" />
           <h2>Virtual Assistant Services</h2>
           <p>
             Our dedicated sisters can help you with administrative tasks, digital marketing, and project management, freeing up your time to focus on what matters.

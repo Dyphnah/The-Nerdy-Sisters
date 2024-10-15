@@ -26,19 +26,19 @@ export default function Navbar() {
         </div>
         <ul className={`nav-links ${isMobileMenuOpen ? "nav-links-mobile" : ""}`}>
           <li>
-            <NavLink to="about" activeClassName="active">About Us</NavLink>
+            <NavLink to="about" activeclassname="active">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="work-with-us" activeClassName="active">Work With Us</NavLink>
+            <NavLink to="work-with-us" activeclassname="active">Work With Us</NavLink>
           </li>
           <li>
-            <NavLink to = "consult" activeClassName="active"> Consulting</NavLink>
+            <NavLink to = "consult" activeclassname="active"> Consulting</NavLink>
           </li>
           <li>
-            <NavLink to="blog" activeClassName="active">Blog</NavLink>
+            <NavLink to="blog" activeclassname="active">Blog</NavLink>
           </li>
-          <li className="last">
-            <NavLink to="strategy" activeClassName="active">Free Discovery Call</NavLink>
+          <li >
+            <NavLink to="portfolio" activeclassname="active">Portfolio</NavLink>
           </li>
         </ul>
       </nav>
