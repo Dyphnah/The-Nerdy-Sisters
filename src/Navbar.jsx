@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import TNSLogo from './assets/TNS-LOGO.png';
+import Logo from './assets/Logo-22.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className="nav">
         <div className="logo-container">
           <NavLink to="/">
-            <img src={TNSLogo} alt="logo" className="logo" />
+            <img src={Logo} alt="logo" className="logo" />
           </NavLink>
         </div>
         <div className={`menu-icon ${isMobileMenuOpen ? "open" : ""}`} onClick={handleMenuToggle}>

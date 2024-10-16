@@ -20,7 +20,7 @@ export default function Home() {
             Enjoy More Time and Less Stress with <span>The Nerdy Sisters'</span> Support!
           </h1>
           <p>
-            Feeling overwhelmed? Delegate your tasks to us and free up your schedule! Our combined expertise in Technical Writing, Copywriting, Web Development, Design, Print, Social Media Marketing, and Executive Assistance brings magic to your brand. Embrace the power of sisterly teamwork and let’s turn your vision into reality.
+            Feeling overwhelmed? Delegate your tasks to us and free up your schedule! Our combined expertise in Technical Writing, Copywriting, Web Development, Design, Social Media Marketing, and Executive Assistance brings magic to your brand. Embrace the power of sisterly teamwork and let’s turn your vision into reality.
           </p>
           <p>Ready to Ease Your Schedule and Save Time?</p>
           <button className="btn" type="button" onClick={scrollToServices}>

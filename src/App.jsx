@@ -10,6 +10,7 @@ import Blog from './Blog.jsx';
 import Consulting from './Consulting.jsx';
 import Portfolio from './Portfolio.jsx';
 import Footer from './Footer.jsx';
+import NotFound from './NotFound.jsx';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/consult" element={<Consulting />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
